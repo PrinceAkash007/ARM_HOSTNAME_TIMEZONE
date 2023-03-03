@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": null
+    },
+    "adminPassword": {
+      "value": null
+    },
+    "subnetID": {
+      "value": "/subscriptions/8d25a816-c57d-40b6-9c04-ddc5923a4e18/resourceGroups/AkashRG/providers/Microsoft.Network/virtualNetworks/Akash-vnet/subnets/subnet1"
+    },
+    "snapshotID":{
+      "value": "/subscriptions/8d25a816-c57d-40b6-9c04-ddc5923a4e18/resourceGroups/AkashRG/providers/Microsoft.Compute/snapshots/snapshot"
+    },
+    "LoadBalancerName": {
+      "value": "Akash-LB"
+    },
+    "BackendPoolName":{
+      "value": "BPool"
+    },
+    "Disk_sku": {
+      "value": "Standard_LRS"
+    },
+    "OSVersion": {
+      "value": "2022-datacenter-azure-edition"
+    },
+    "vmSize": {
+      "value": "Standard_D2s_v5"
+    },
+    "vmName": {
+      "value": "ARM-vm"
+    },
+    "location":{
+      "value": "southindia"
+    },
+    "hostname": {
+      "value": "created-Akash"
+    }
+  }
+}
