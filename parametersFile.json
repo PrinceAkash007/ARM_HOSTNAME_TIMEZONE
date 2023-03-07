@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "count": {
+      "value": 1
+    },
+    "adminUsername": {
+      "value": null
+    },
+    "adminPassword": {
+      "value": null
+    },
+    "vnetName":{
+      "value": "Akash-vnet"
+    },
+    "subnetName": {
+      "value": "subnet1"
+    },
+    "snapshotName":{
+      "value": "snapshot"
+    },
+    "LoadBalancerName": {
+      "value": "Akash-LB"
+    },
+    "BackendPoolName":{
+      "value": "BPool"
+    },
+    "Disk_sku": {
+      "value": "Standard_LRS"
+    },
+    "OSVersion": {
+      "value": "2022-datacenter-azure-edition"
+    },
+    "vmSize": {
+      "value": "Standard_D4s_v5"
+    },
+    "vmName": {
+      "value": "ARM-vm"
+    },
+    "location":{
+      "value": "southindia"
+    },
+    "hostname": {
+      "value": "created-Akash"
+    }
+  }
+}
